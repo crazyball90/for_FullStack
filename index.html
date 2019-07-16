@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dead Genre</title>
+  </head>
+  <main>
+    <!--<img src="https://e.snmc.io/i/300/w/e1bc9307b6d51ec90cad2230963c19da/6042282" alt="background">-->
+  </main>
+  <body>
+    <style media="screen">
+    /*основной стиль сайта*/
+      body {
+        /*background: url('https://images.unsplash.com/photo-1537726086503-4806b83dab73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80');*/
+        background: url('https://images.pexels.com/photos/763426/pexels-photo-763426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+        font-style: impact;
+        color: white;
+        font-size: 18px;
+      }
+
+      /*параметры шапочки*/
+      #header_area {
+        position: fixed;
+        margin-top: -10px;
+        margin-left: -10px;
+        padding-right: 20px;
+        background: linear-gradient(135deg, black, grey);
+        box-shadow: inset 2px 2px 10px #202020, 1px 1px 5px #444444;
+        width: 100%;
+        height: 60px;
+       }
+      #home_button {
+        margin-top: 6px;
+        margin-left: 0.5%;
+        height: 50px;
+        width: 53px;
+        /*background: Black;*/
+        background: url("e:/dwnldds/home_alternative.jpg");
+        border: inset 1px grey;
+      }
+      .line {
+        border-right: 2px solid white;
+      }
+
+      .button:hover {
+        /*box-shadow: 3px 3px 10px white;*/
+        /*background: url("https://img.icons8.com/ios-filled/50/000000/booking.png");*/
+        animation-duration: 100ms;
+        animation-name: shadow_change;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+      }
+      #home_button:active {
+        border: inset 3px grey;
+      }
+
+      #other_buttons_1 {
+        padding-left: 50px;
+        margin-left: 100px;
+        height: 50px;
+        width: 50px;
+        /*border-left: inset 2px white;*/
+      }
+      #other_buttons_2 {
+        padding-left: 50px;
+        margin-left: 10px;
+        height: 50px;
+        width: 50px;
+      }
+      #other_buttons_3 {
+        padding-left: 50px;
+        margin-left: 10px;
+        height: 50px;
+        width: 50px;
+      }
+      #other_buttons_4 {
+        padding-left: 50px;
+        margin-left: 10px;
+        height: 50px;
+        width: 50px;
+      }
+      #other_buttons_5 {
+        padding-left: 50px;
+        margin-left: 10px;
+        height: 50px;
+        width: 50px;
+      }
+
+      @keyframes shadow_change {
+        form {box-shadow: 1px 1px 2px white, 1px 1px 2px white;}
+        /*50% {box-shadow: 2px 2px 5px white, 2px 2px 5px white;}*/
+        to {box-shadow: 3px 3px 10px white, 3px 3px 10px white;}
+      }
+
+      /*параметры для блоков с текстом*/
+      #textarea_1 {
+        position: absolute;
+        margin-left: 10%;
+        top: 400px;
+        width: 300px;
+        height: 320px;
+        background: linear-gradient(135deg, black, gray);
+        box-shadow: inset 2px 2px 10px #202020, 1px 1px 5px #444444;
+      }
+      #textarea_2 {
+        position: absolute;
+        margin-left: 30%;
+        top: 400px;
+        width: 300px;
+        height: 320px;
+        background: linear-gradient(135deg, black, gray);
+        box-shadow: inset 2px 2px 10px #202020, 1px 1px 5px #444444;
+      }
+      #textarea_3 {
+        position: absolute;
+        margin-left: 50%;
+        top: 400px;
+        width: 300px;
+        height: 320px;
+        background: linear-gradient(135deg, black, gray);
+        box-shadow: inset 2px 2px 10px #202020, 1px 1px 5px #444444;
+      }
+      #textarea_4 {
+        position: absolute;
+        margin-left: 70%;
+        top: 400px;
+        width: 300px;
+        height: 320px;
+        background: linear-gradient(135deg, black, gray);
+        box-shadow: inset 2px 2px 10px #202020, 1px 1px 5px #444444;
+      }
+      .textarea:hover {
+        animation-duration: 100ms;
+        animation-name: shadow_change;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+      }
+
+      /*параметры текста*/
+      p {
+        /*-webkit-text-fill-color: white;
+        -webkit-text-stroke: 1px black;*/
+        margin-left: 10px;
+        padding-top: 5px;
+        padding-right: 5px;
+        height: 2px;
+      }
+      #h1_1 {
+        -webkit-text-fill-color: black;
+        -webkit-text-stroke: 2px white;
+        margin-top: -50px;
+        position: absolute;
+        font-family: fantasy;
+      }
+      /*#h1_2 {
+        margin-top: -50px;
+        position: fixed;
+      }
+      #h1_3 {
+        margin-top: -50px;
+        position: fixed;
+      }
+      #h1_4 {
+        margin-top: -50px;
+        position: fixed;
+      }*/
+
+      /*параметры изображений(которых нет, лол)*/
+      img {width: 15vw;
+           height: auto;
+      }
+      #main_pics {
+        width: 297px;
+        margin-top: 300px;
+        box-shadow: inset 2px 2px 10px #202020, 1px 1px 5px #444444;
+      }
+      .brdr_style {
+        border: inset 2px black;
+      }
+      #Period_Table {
+        width: 100%;
+        height: 100%;
+      }
+
+      /*Параметры футера*/
+
+    </style>
+    <header>
+      <div id="header_area" class="line">
+        <nav>
+            <button type="button" name="HOME" id="home_button" class="button"></button>
+          <form class="button" action='E:/maybe_prjcts/tryToDoSite/periodic_table_of_metal.html'>
+            <button type="submit" name="Period_Table" class="button" id="other_buttons_1" style="background: url('E:/maybe_prjcts/tryToDoSite/pict_for_site/icons8-периодическая-таблица-элементов-50.png')"></button>
+          </form>
+          <form class="button">
+            <button type="button" name="button" class="button" id="other_buttons_2"></button>
+          </form>
+          <form>
+            <button type="button" name="button" class="button" id="other_buttons_3"></button>
+          </form>
+          <form="">
+            <button type="button" name="button" class="button" id="other_buttons_4"></button>
+          </form>
+          <form="">
+            <button type="button" name="button" class="button" id="other_buttons_5"></button>
+          </form>
+        </nav>
+      </div>
+
+    </header>
+
+      <!--условные описания для жанров-->
+      <div>
+        <div id="textarea_1" class="textarea">
+          <h1 id="h1_1">Black Metal</h1>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+           magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <img id="main_pics" src="E:/maybe_prjcts/tryToDoSite/pict_for_site/patch_black_metal-logo-01-800x800.jpg" alt="" class="brdr_style">
+        </div>
+        <div id="textarea_2" class="textarea">
+          <h1 id="h1_1">Dark Metal</h1>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+           magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <img id="main_pics" src="E:/maybe_prjcts/tryToDoSite/pict_for_site/cropped-dscn0261popolo.jpg" alt="" class="brdr_style">
+        </div>
+        <div id="textarea_3" class="textarea">
+          <h1 id="h1_1">Noise Metal</h1>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+           magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <img id="main_pics"src="E:/maybe_prjcts/tryToDoSite/pict_for_site/MV5BMDQxMDgyM2MtYWY0MC00ZDdmLThmNTAtZjM1MThkNjAwODRjXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_.jpg" alt="">
+        </div>
+        <div id="textarea_4" class="textarea">
+          <h1 id="h1_1">Dark Lyrics</h1>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+           magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           <img id="main_pics"src="E:/maybe_prjcts/tryToDoSite/pict_for_site/maxresdefault.jpg" alt="">
+        </div>
+
+
+        <!-- !!!!!!!!!ЭТО НАДО ОСТАВИТЬ ДЛЯ ДРУГОЙ СТРАНИЦЫ САЙТА!!!!!!!!-->
+        <!--<div>
+          <img id='Period_Table' src="E:/dwnldds/d6du1lo-45fd5de9-6429-4f44-9f63-eaa2c26bdea0.png" alt="Periodic table of Metal">
+        </div>
+      -->
+      </div>
+      <footer>
+        <div class="">
+
+        </div>
+      </footer>
+  </body>
+</html>
